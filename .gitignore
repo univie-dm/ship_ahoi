@@ -1,0 +1,100 @@
+# ------------------------------------------------------------
+# Root .gitignore for ship.ahoi
+# - Nuxt / Node frontend + Python backend + Docker + IDEs
+# ------------------------------------------------------------
+
+# Nuxt / frontend build outputs
+/.output
+/.data
+/.nuxt
+/.nitro
+/.cache
+dist/
+build/
+/.parcel-cache
+/.vite
+
+# Node dependencies and package artifacts
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+*.tgz
+*.tsbuildinfo
+
+# Python artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+.venv/
+ENV/
+venv.bak/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+dist/
+build/
+develop-eggs/
+*.egg
+
+# Test & coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+cov_html/
+.tox/
+
+# Logs & runtime files
+logs/
+*.log
+*.err
+*.out
+*.pid
+*.seed
+
+# Environment files (keep examples)
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-*
+*.iml
+
+# Docker
+**/docker-compose.override.yml
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Misc
+*.sqlite3
+*.db
+*.sql
+*.sqlite
+*.sqlite-journal
+*.log
+~*
+*.swp
+.cache/
+.rbc
+
+# Project-specific ignores (keep working-copy /temp files)
+/masterarbeit
+/logs
+
+# Large bundled datasets (provide locally; too big to track)
+server/data/
