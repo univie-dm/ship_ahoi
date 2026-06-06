@@ -10,6 +10,21 @@
 - **Scalable Architecture**: Handles large datasets with intelligent caching
 - **Comprehensive Analysis**: 7 specialized pages covering the complete clustering workflow
 
+## User Study Results
+
+We evaluated SHIP.AHOI against a traditional notebook-based workflow in a controlled study with **N = 13 participants**. The table below reports mean ± SD, with two-sided Wilcoxon signed-rank tests and effect size *r* = |Z| / √N. Higher is better for ARI, configurations explored, confidence, and SUS; lower is better for NASA-TLX (↓).
+
+| Measure | SHIP.AHOI | Notebook | *p* | *r* |
+| :--- | :---: | :---: | :---: | :---: |
+| Best ARI — DS1 (%) | 58.98 ± 7.20 | 34.74 ± 10.18 | .0002 | 1.02 |
+| Best ARI — DS2 (%) | 30.86 ± 1.55 | 26.98 ± 4.38 | .0129 | 0.69 |
+| Configurations explored | 215.81 ± 165.98 | 15.92 ± 8.71 | .0002 | 1.02 |
+| SUS | 78.85 ± 11.26 | 54.40 ± 17.11 | .0007 | 0.94 |
+| NASA-TLX (↓) | 44.03 ± 18.41 | 58.47 ± 16.24 | .0049 | 0.78 |
+| Confidence (1–5) | 3.37 ± 0.85 | 2.19 ± 0.64 | .0020 | 0.86 |
+
+Across every measure, SHIP.AHOI significantly outperformed the notebook baseline: participants found better clusterings (higher ARI), explored an order of magnitude more configurations, reported higher usability (SUS) and confidence, and experienced lower task load (NASA-TLX).
+
 ## Docker Quick Start
 ```bash
 docker compose up
