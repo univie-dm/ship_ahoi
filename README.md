@@ -114,8 +114,8 @@ python -m uvicorn server.clustering_api:app --reload --log-level debug
 
 This project integrates cutting-edge research in clustering analysis:
 
-- **DISCO Framework**: Internal evaluation metric for density-based clustering with noise labels (ICLR 2026 submission)
-- **SHIP Framework**: Similarity-Hierarchy-Partition clustering framework ([arXiv:2502.14018](https://arxiv.org/abs/2502.14018))
+- **DISCO Framework**: Internal evaluation metric for density-based clustering with noise labels (ICLR 2026)
+- **SHIP Framework**: Draganov, A., Weber, P., Jørgensen, R., Beer, A., Plant, C., & Assent, I. (2026). Ultrametric Cluster Hierarchies: I Want ‘em All!. Advances in Neural Information Processing Systems, 38, 128190-128241.
 
 ### Core Technologies
 
